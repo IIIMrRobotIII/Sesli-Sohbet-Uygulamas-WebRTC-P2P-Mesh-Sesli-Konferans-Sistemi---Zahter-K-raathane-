@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "BURAYA_ANDROID_APP_ID_GELECEK",
+    "project_id": "BURAYA_ANDROID_APP_ID_GELECEK",
+    "storage_bucket": "BURAYA_ANDROID_APP_ID_GELECEK"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "BURAYA_ANDROID_APP_ID_GELECEK",
+        "android_client_info": {
+          "package_name": "com.mehmetburakzahter.zahter_kiraathane"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "BURAYA_ANDROID_APP_ID_GELECEK"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
