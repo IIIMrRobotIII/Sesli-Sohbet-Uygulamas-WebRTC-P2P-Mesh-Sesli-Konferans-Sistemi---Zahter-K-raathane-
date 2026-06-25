@@ -1,6 +1,24 @@
 # Zahter Kıraathane - WebRTC & Firebase Sesli ve Yazılı Sohbet
 
-Zahter Kıraathane; Flutter, Firebase ve WebRTC teknolojilerini bir araya getirerek gerçek zamanlı, düşük gecikmeli sesli iletişim ve yazılı (fısıltı dahil) sohbet odaları sunan bir mobil uygulamadır. 
+Zahter Kıraathane; Flutter, Firebase ve WebRTC teknolojilerini bir araya getirerek gerçek zamanlı, düşük gecikmeli sesli iletişim ve yazılı (fısıltı dahil) sohbet odaları sunan bir mobil uygulamadır.
+
+---
+
+## ℹ️ Geliştirici ve Yayıncı Bilgileri
+* **Geliştirici:** Mehmet Burak Zahter
+* **YouTube Kanalı:** [Burak Zahter](https://www.youtube.com/@Burak.Zahter)
+
+---
+
+## ⚠️ Önemli Yapılandırma Adımı (Kendi API ve ID Değerleriniz)
+
+Uygulamayı kendi Firebase projenizle sorunsuz bir şekilde çalıştırabilmek için **kendi API anahtarlarınızı, kimliklerinizi (ID) ve proje yapılandırmalarınızı** tanımlamanız gerekmektedir. 
+
+Bunun için aşağıdaki üç dosyayı kendi projenizin bilgileriyle düzenlemeli veya değiştirmelisiniz:
+
+1. **Kök Dizindeki `firebase.json` Dosyası:** Firebase CLI araçlarının ve Web platformunun projenizle eşleşmesi için bu dosyayı güncelleyin.
+2. **`lib/firebase_options.dart` Dosyası:** Firebase projenizi oluşturduktan sonra `flutterfire configure` komutuyla veya Firebase Konsolundan aldığınız platform bazlı yapılandırma değerleriyle bu dosyayı güncelleyin.
+3. **`android/app/google-services.json` Dosyası:** Firebase Konsolunda Android uygulamanızı tanımladıktan sonra indirdiğiniz yapılandırma dosyasını bu hedef dizine yerleştirin.
 
 ---
 
@@ -13,18 +31,6 @@ Zahter Kıraathane; Flutter, Firebase ve WebRTC teknolojilerini bir araya getire
 * **Gelişmiş Yazılı Sohbet ve Fısıldama:** Genel mesajlaşmanın yanı sıra, sadece hedeflenen kullanıcıya özel gizli (fısıltı) mesaj gönderilebilir.
 * **Kullanıcı Kontrolleri:** Mikrofon kapatma (Mute), kulaklık kapatma (Deaf) ve odadaki diğer kullanıcıları yerel olarak susturabilme imkanı sunulur.
 * **Karanlık ve Aydınlık Tema Desteği:** Kullanıcı tercihine göre yerel hafızaya kaydedilen tema yönetimi mevcuttur.
-
----
-
-## ⚠️ Önemli Yapılandırma Adımı
-
-Uygulamayı kendi Firebase projenizle sorunsuz bir şekilde çalıştırabilmek için **kendi API anahtarlarınızı, kimliklerinizi (ID) ve proje yapılandırmalarınızı** tanımlamanız gerekmektedir. 
-
-Bunun için aşağıdaki üç dosyayı kendi projenizin bilgileriyle düzenlemeli veya değiştirmelisiniz:
-
-1. **Kök Dizindeki `firebase.json` Dosyası:** Firebase CLI araçlarının ve Web platformunun projenizle eşleşmesi için bu dosyayı güncelleyin.
-2. **`lib/firebase_options.dart` Dosyası:** Firebase projenizi oluşturduktan sonra `flutterfire configure` komutuyla veya Firebase Konsolundan aldığınız platform bazlı yapılandırma değerleriyle bu dosyayı güncelleyin.
-3. **`android/app/google-services.json` Dosyası:** Firebase Konsolunda Android uygulamanızı tanımladıktan sonra indirdiğiniz yapılandırma dosyasını bu hedef dizine yerleştirin.
 
 ---
 
